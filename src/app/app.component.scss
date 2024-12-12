@@ -1,0 +1,22 @@
+:host {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+}
+
+.divider {
+    img {
+        bottom: -1.5em;
+    }
+}
+
+.button {
+    padding: 1em;
+    color: var(--surface-ground);
+    background-color: var(--primary-color);
+    border-radius: .5em;
+}

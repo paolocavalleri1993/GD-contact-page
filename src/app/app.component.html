@@ -1,0 +1,56 @@
+<div
+  class="flex flex-column gap-3 justify-content-center border-round-2xl shadow-4 w-full max-w-25rem overflow-hidden mt-3">
+
+  <div class="relative">
+    <img src="assets\profile-picture.png">
+
+    <div class="divider">
+      <img src="assets\divider.svg" class="absolute">
+      <img src="assets\logo.png" class="absolute w-3">
+    </div>
+  </div>
+
+  <div class="flex flex-column gap-5 p-4">
+
+    <div class="flex flex-column pl-5 border-left-2">
+      <h1 style="margin: 0;">Paolo Cavalleri</h1>
+      <h4 style="margin: 0;">CEO & Founder</h4>
+      <p style="margin: 0;">Global Destiny</p>
+    </div>
+
+    <div class="flex flex-column gap-2">
+
+      <div class="flex gap-3 align-items-center">
+        <i class="pi pi-whatsapp" style="font-size: 1.5rem; color: var(--primary-color)"></i>
+        <a href="https://wa.me/+393484219369" target="_blank" rel="noopener noreferrer"
+          class="button font-bold no-underline w-full">Scrivimi su whatsapp</a>
+      </div>
+
+      <div class="flex gap-3 align-items-center">
+        <i class="pi pi-envelope" style="font-size: 1.5rem; color: var(--primary-color)"></i>
+        <a href="mailto:cavalleri1993@gmail.com" target="_blank" rel="noopener noreferrer"
+          class="button font-bold no-underline w-full">Invia una mail</a>
+      </div>
+
+      <div class="flex gap-3 align-items-center">
+        <i class="pi pi-globe" style="font-size: 1.5rem; color: var(--primary-color)"></i>
+        <a href="https://globaldestiny.it" target="_blank" rel="noopener noreferrer"
+          class="button font-bold no-underline w-full">Globaldestiny.it</a>
+      </div>
+
+      <div class="flex gap-3 align-items-center">
+        <i class="pi pi-phone" style="font-size: 1.5rem; color: var(--primary-color)"></i>
+        <a href="tel:+393484219369" target="_blank" rel="noopener noreferrer"
+          class="button font-bold no-underline w-full">Numero di cellulare</a>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<div class="mb-5">
+  <p-toast severity="contrast" />
+  <p-button label="Scarica contatto" [outlined]="true" (onClick)="thanks()" (click)="downloadVCard()" />
+</div>
