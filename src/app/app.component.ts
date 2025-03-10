@@ -28,10 +28,10 @@ export class AppComponent {
     const vCardData = `
     BEGIN:VCARD
     VERSION:3.0
-    FN:Paolo Cavalleri
+    FN:Alessio Vitiello
     ORG:Global Destiny srl
-    TEL;TYPE=CELL:+39 348 421 9369
-    EMAIL:cavalleri1993@gmail.com
+    TEL;TYPE=CELL:+393491118413
+    EMAIL:alessiosamp10@gmail.com
     END:VCARD
     `;
     const blob = new Blob([vCardData], { type: 'text/vcard' });
